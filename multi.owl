@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://semanticweb.tools/ont/multi#"
-     xml:base="http://semanticweb.tools/ont/multi"
+<rdf:RDF xmlns="https://anonymous.4open.science/r/semanticweb-93B7/multi#"
+     xml:base="https://anonymous.4open.science/r/semanticweb-93B7/multi"
      xmlns:cc="http://creativecommons.org/ns#"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:dul="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"
@@ -8,14 +8,14 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:mola="https://ontology.londisizwe.org/mola#"
+     xmlns:mola="https://anonymous.4open.science/r/semanticweb-93B7/mola#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:vann="http://purl.org/vocab/vann/"
-     xmlns:multi="http://semanticweb.tools/ont/multi#"
+     xmlns:multi="https://anonymous.4open.science/r/semanticweb-93B7/multi#"
      xmlns:lexinfo="http://www.lexinfo.net/ontology/3.0/lexinfo#"
      xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#">
-    <owl:Ontology rdf:about="http://semanticweb.tools/ont/multi">
-        <owl:versionIRI rdf:resource="http://semanticweb.tools/ont/multi/1.0.0"/>
+    <owl:Ontology rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi">
+        <owl:versionIRI rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi/1.0.0"/>
         <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl"/>
         <cc:license>https://creativecommons.org/publicdomain/zero/1.0/</cc:license>
         <dc:creator></dc:creator>
@@ -26,7 +26,7 @@ This core version has been aligned to DOLCE+DnS Ultralite, an upper-level ontolo
         <dc:modified>2023-07-16</dc:modified>
         <dc:rights>CC-Zero</dc:rights>
         <vann:preferredNamespacePrefix>multi</vann:preferredNamespacePrefix>
-        <vann:preferredNamespaceUri>http://semanticweb.tools/ont/multi#</vann:preferredNamespaceUri>
+        <vann:preferredNamespaceUri>https://anonymous.4open.science/r/semanticweb-93B7/multi#</vann:preferredNamespaceUri>
         <rdfs:comment xml:lang="en">13/02/2023 : First version was made live
 15/02/2023 : Made minor changes to annotation properties and definitions
 31/03/2023 : Added metadata
@@ -90,64 +90,64 @@ This core version has been aligned to DOLCE+DnS Ultralite, an upper-level ontolo
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#hasViewpoint -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#hasViewpoint -->
 
-    <owl:AnnotationProperty rdf:about="http://semanticweb.tools/ont/multi#hasViewpoint">
-        <rdfs:isDefinedBy>http://semanticweb.tools/ont/multi</rdfs:isDefinedBy>
+    <owl:AnnotationProperty rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#hasViewpoint">
+        <rdfs:isDefinedBy>https://anonymous.4open.science/r/semanticweb-93B7/multi</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">has viewpoint</rdfs:label>
-        <rdfs:range rdf:resource="http://semanticweb.tools/ont/multi#Viewpoint"/>
+        <rdfs:range rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#Viewpoint"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#isExpressedInEnglish -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#isExpressedInEnglish -->
 
-    <owl:AnnotationProperty rdf:about="http://semanticweb.tools/ont/multi#isExpressedInEnglish">
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:AnnotationProperty rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#isExpressedInEnglish">
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">is expressed in English</rdfs:label>
-        <rdfs:domain rdf:resource="https://ontology.londisizwe.org/mola#Languoid"/>
+        <rdfs:domain rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/mola#Languoid"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#isExpressedLocally -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#isExpressedLocally -->
 
-    <owl:AnnotationProperty rdf:about="http://semanticweb.tools/ont/multi#isExpressedLocally">
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:AnnotationProperty rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#isExpressedLocally">
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">is expressed locally</rdfs:label>
-        <rdfs:domain rdf:resource="https://ontology.londisizwe.org/mola#Languoid"/>
+        <rdfs:domain rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/mola#Languoid"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#isLexicalisedAs -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#isLexicalisedAs -->
 
-    <owl:AnnotationProperty rdf:about="http://semanticweb.tools/ont/multi#isLexicalisedAs">
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:AnnotationProperty rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#isLexicalisedAs">
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">is lexicalised as</rdfs:label>
         <rdfs:range rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#ProperNoun"/>
-        <rdfs:domain rdf:resource="https://ontology.londisizwe.org/mola#Languoid"/>
+        <rdfs:domain rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/mola#Languoid"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#symbolisesConcept -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#symbolisesConcept -->
 
-    <owl:AnnotationProperty rdf:about="http://semanticweb.tools/ont/multi#symbolisesConcept">
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:AnnotationProperty rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#symbolisesConcept">
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">symbolises concept</rdfs:label>
-        <rdfs:domain rdf:resource="http://semanticweb.tools/ont/multi#Term"/>
+        <rdfs:domain rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#Term"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#symbolisesName -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#symbolisesName -->
 
-    <owl:AnnotationProperty rdf:about="http://semanticweb.tools/ont/multi#symbolisesName">
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:AnnotationProperty rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#symbolisesName">
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">symbolises name</rdfs:label>
         <rdfs:range rdf:resource="http://www.lexinfo.net/ontology/3.0/lexinfo#ProperNoun"/>
-        <rdfs:domain rdf:resource="http://semanticweb.tools/ont/multi#LanguoidIdentifier"/>
+        <rdfs:domain rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#LanguoidIdentifier"/>
     </owl:AnnotationProperty>
     
 
@@ -168,13 +168,13 @@ This core version has been aligned to DOLCE+DnS Ultralite, an upper-level ontolo
     
 
 
-    <!-- https://ontology.londisizwe.org/mola#hasLanguageTag -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/mola#hasLanguageTag -->
 
-    <owl:AnnotationProperty rdf:about="https://ontology.londisizwe.org/mola#hasLanguageTag">
-        <rdfs:isDefinedBy rdf:resource="https://ontology.londisizwe.org/mola"/>
+    <owl:AnnotationProperty rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/mola#hasLanguageTag">
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/mola"/>
         <rdfs:label xml:lang="en">has language tag</rdfs:label>
-        <rdfs:range rdf:resource="http://semanticweb.tools/ont/multi#LanguoidIdentifier"/>
-        <rdfs:domain rdf:resource="https://ontology.londisizwe.org/mola#Languoid"/>
+        <rdfs:range rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#LanguoidIdentifier"/>
+        <rdfs:domain rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/mola#Languoid"/>
     </owl:AnnotationProperty>
     
 
@@ -190,139 +190,139 @@ This core version has been aligned to DOLCE+DnS Ultralite, an upper-level ontolo
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#AbsoluteLocation -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#AbsoluteLocation -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#AbsoluteLocation">
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#AbsoluteLocation">
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Place"/>
-        <owl:disjointWith rdf:resource="http://semanticweb.tools/ont/multi#MetaphoricalLocation"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+        <owl:disjointWith rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#MetaphoricalLocation"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Absolute Location</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#Age -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#Age -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#Age">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#IndividualDemographicVariable"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#Age">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#IndividualDemographicVariable"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Age</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#Architecture -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#Architecture -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#Architecture">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CreativeExpression"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#Architecture">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CreativeExpression"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Architecture</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#Art -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#Art -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#Art">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CreativeExpression"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#Art">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CreativeExpression"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Art</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#BiologicalSex -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#BiologicalSex -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#BiologicalSex">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#IndividualDemographicVariable"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#BiologicalSex">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#IndividualDemographicVariable"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Biological Sex</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#BodyModification -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#BodyModification -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#BodyModification">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#IndividualCulturalExpression"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#BodyModification">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#IndividualCulturalExpression"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Body Modification</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#Codeswitching -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#Codeswitching -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#Codeswitching">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#LanguageUse"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#Codeswitching">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#LanguageUse"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Codeswitching</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#CollectiveCulturalExpression -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#CollectiveCulturalExpression -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#CollectiveCulturalExpression">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CulturalExpression"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#CollectiveCulturalExpression">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CulturalExpression"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Collective Cultural Expression</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#CollectiveDemographicVariable -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#CollectiveDemographicVariable -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#CollectiveDemographicVariable">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#DemographicVariable"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#CollectiveDemographicVariable">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#DemographicVariable"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Collective Demographic Variable</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#ColourPerception -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#ColourPerception -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#ColourPerception">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CollectiveCulturalExpression"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#ColourPerception">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CollectiveCulturalExpression"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Colour Perception</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#ColourScheme -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#ColourScheme -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#ColourScheme">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#ColourPerception"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#ColourScheme">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#ColourPerception"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Colour Scheme</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#CommunityAgnosticViewpoint -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#CommunityAgnosticViewpoint -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#CommunityAgnosticViewpoint">
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#CommunityAgnosticViewpoint">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://semanticweb.tools/ont/multi#Viewpoint"/>
+                    <rdf:Description rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#Viewpoint"/>
                     <owl:Class>
-                        <owl:complementOf rdf:resource="http://semanticweb.tools/ont/multi#CommunitySpecificViewpoint"/>
+                        <owl:complementOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CommunitySpecificViewpoint"/>
                     </owl:Class>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Community-Agnostic Viewpoint</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#CommunityOfIdentity -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#CommunityOfIdentity -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#CommunityOfIdentity">
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#CommunityOfIdentity">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -331,400 +331,400 @@ This core version has been aligned to DOLCE+DnS Ultralite, an upper-level ontolo
                         <owl:intersectionOf rdf:parseType="Collection">
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegion"/>
-                                <owl:someValuesFrom rdf:resource="http://semanticweb.tools/ont/multi#CulturalExpression"/>
+                                <owl:someValuesFrom rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CulturalExpression"/>
                             </owl:Restriction>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isDescribedBy"/>
-                                <owl:someValuesFrom rdf:resource="http://semanticweb.tools/ont/multi#DemographicVariable"/>
+                                <owl:someValuesFrom rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#DemographicVariable"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Community of Identity</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#CommunitySpecificViewpoint -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#CommunitySpecificViewpoint -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#CommunitySpecificViewpoint">
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#CommunitySpecificViewpoint">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://semanticweb.tools/ont/multi#Viewpoint"/>
+                    <rdf:Description rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#Viewpoint"/>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#unifies"/>
-                                <owl:someValuesFrom rdf:resource="http://semanticweb.tools/ont/multi#CommunityOfIdentity"/>
+                                <owl:someValuesFrom rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CommunityOfIdentity"/>
                             </owl:Restriction>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#unifies"/>
-                                <owl:someValuesFrom rdf:resource="http://semanticweb.tools/ont/multi#LinguisticCommunity"/>
+                                <owl:someValuesFrom rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#LinguisticCommunity"/>
                             </owl:Restriction>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#unifies"/>
-                                <owl:someValuesFrom rdf:resource="http://semanticweb.tools/ont/multi#PoliticalCommunity"/>
+                                <owl:someValuesFrom rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#PoliticalCommunity"/>
                             </owl:Restriction>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Community-Specific Viewpoint</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#Continent -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#Continent -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#Continent">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#AbsoluteLocation"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#Continent">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#AbsoluteLocation"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Continent</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#Country -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#Country -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#Country">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#AbsoluteLocation"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#Country">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#AbsoluteLocation"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Country</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#CreativeExpression -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#CreativeExpression -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#CreativeExpression">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CollectiveCulturalExpression"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#CreativeExpression">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CollectiveCulturalExpression"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Creative Expression</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#Cuisine -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#Cuisine -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#Cuisine">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CreativeExpression"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#Cuisine">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CreativeExpression"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Cuisine</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#CulturalExpression -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#CulturalExpression -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#CulturalExpression">
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#CulturalExpression">
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialObjectAttribute"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Cultural Expression</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#Custom -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#Custom -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#Custom">
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#Custom">
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Norm"/>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#Dance -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#Dance -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#Dance">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CreativeExpression"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#Dance">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CreativeExpression"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Dance</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#Decor -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#Decor -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#Decor">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CreativeExpression"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#Decor">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CreativeExpression"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Decor</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#DemographicVariable -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#DemographicVariable -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#DemographicVariable">
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#DemographicVariable">
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Description"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegion"/>
-                <owl:someValuesFrom rdf:resource="http://semanticweb.tools/ont/multi#CulturalExpression"/>
+                <owl:someValuesFrom rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CulturalExpression"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Demographic Variable</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#DependentCountry -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#DependentCountry -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#DependentCountry">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#Country"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#DependentCountry">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#Country"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Dependent Country</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#Dress -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#Dress -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#Dress">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#IndividualCulturalExpression"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#Dress">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#IndividualCulturalExpression"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Dress</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#EducationLevel -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#EducationLevel -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#EducationLevel">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CollectiveDemographicVariable"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#EducationLevel">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CollectiveDemographicVariable"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Education Level</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#EducationSystem -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#EducationSystem -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#EducationSystem">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CollectiveCulturalExpression"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#EducationSystem">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CollectiveCulturalExpression"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Education System</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#EthnicGroup -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#EthnicGroup -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#EthnicGroup">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CollectiveDemographicVariable"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#EthnicGroup">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CollectiveDemographicVariable"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Ethnic Group</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#Ethnicity -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#Ethnicity -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#Ethnicity">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#IndividualDemographicVariable"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#Ethnicity">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#IndividualDemographicVariable"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Ethnicity</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#GenderExpression -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#GenderExpression -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#GenderExpression">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#IndividualCulturalExpression"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#GenderExpression">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#IndividualCulturalExpression"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Gender Expression</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#GenderIdentity -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#GenderIdentity -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#GenderIdentity">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#IndividualDemographicVariable"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#GenderIdentity">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#IndividualDemographicVariable"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Gender Identity</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#GenderRole -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#GenderRole -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#GenderRole">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CollectiveDemographicVariable"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#GenderRole">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CollectiveDemographicVariable"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Gender Role</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#GenerationalSegment -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#GenerationalSegment -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#GenerationalSegment">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CollectiveDemographicVariable"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#GenerationalSegment">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CollectiveDemographicVariable"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Generational Segment</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#Grammar -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#Grammar -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#Grammar">
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#Grammar">
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TypeCollection"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasMember"/>
-                <owl:someValuesFrom rdf:resource="http://semanticweb.tools/ont/multi#LexicalItemSpecificRule"/>
+                <owl:someValuesFrom rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#LexicalItemSpecificRule"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasMember"/>
-                <owl:someValuesFrom rdf:resource="http://semanticweb.tools/ont/multi#PartOfSpeechSpecificRule"/>
+                <owl:someValuesFrom rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#PartOfSpeechSpecificRule"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Grammar</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#Income -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#Income -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#Income">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CollectiveDemographicVariable"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#Income">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CollectiveDemographicVariable"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Income</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#IncomeScale -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#IncomeScale -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#IncomeScale">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CollectiveCulturalExpression"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#IncomeScale">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CollectiveCulturalExpression"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Income Scale</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#IndependentCountry -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#IndependentCountry -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#IndependentCountry">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#Country"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#IndependentCountry">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#Country"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Independent Country</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#IndividualCulturalExpression -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#IndividualCulturalExpression -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#IndividualCulturalExpression">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CulturalExpression"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#IndividualCulturalExpression">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CulturalExpression"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Individual Cultural Expression</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#IndividualDemographicVariable -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#IndividualDemographicVariable -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#IndividualDemographicVariable">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#DemographicVariable"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#IndividualDemographicVariable">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#DemographicVariable"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Individual Demographic Variable</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#KinshipSystem -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#KinshipSystem -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#KinshipSystem">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CollectiveCulturalExpression"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#KinshipSystem">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CollectiveCulturalExpression"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Kinship System</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#L1LinguisticCommunity -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#L1LinguisticCommunity -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#L1LinguisticCommunity">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#LinguisticCommunity"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#L1LinguisticCommunity">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#LinguisticCommunity"/>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#L2LinguisticCommunity -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#L2LinguisticCommunity -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#L2LinguisticCommunity">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#LinguisticCommunity"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#L2LinguisticCommunity">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#LinguisticCommunity"/>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#LanguageSpeaker -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#LanguageSpeaker -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#LanguageSpeaker">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CollectiveDemographicVariable"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#LanguageSpeaker">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CollectiveDemographicVariable"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Language Speaker</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#LanguageUse -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#LanguageUse -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#LanguageUse">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CollectiveCulturalExpression"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#LanguageUse">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CollectiveCulturalExpression"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Language Use</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#LanguoidIdentifier -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#LanguoidIdentifier -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#LanguoidIdentifier">
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#LanguoidIdentifier">
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationObject"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Languoid Identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#LegalStatus -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#LegalStatus -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#LegalStatus">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CollectiveDemographicVariable"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#LegalStatus">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CollectiveDemographicVariable"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Legal Status</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#LegalSystem -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#LegalSystem -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#LegalSystem">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#System"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#LegalSystem">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#System"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Legal System</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#LexicalItem -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#LexicalItem -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#LexicalItem">
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#LexicalItem">
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationObject"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -735,203 +735,203 @@ This core version has been aligned to DOLCE+DnS Ultralite, an upper-level ontolo
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isClassifiedBy"/>
-                <owl:someValuesFrom rdf:resource="http://semanticweb.tools/ont/multi#PartOfSpeech"/>
+                <owl:someValuesFrom rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#PartOfSpeech"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isSpecializedBy"/>
-                <owl:someValuesFrom rdf:resource="http://semanticweb.tools/ont/multi#LexicalItemSpecificRule"/>
+                <owl:someValuesFrom rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#LexicalItemSpecificRule"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Lexical Item</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#LexicalItemSpecificRule -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#LexicalItemSpecificRule -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#LexicalItemSpecificRule">
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#LexicalItemSpecificRule">
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Parameter"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Lexical Item-Specific Rule</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#Lexicon -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#Lexicon -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#Lexicon">
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#Lexicon">
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TypeCollection"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasMember"/>
-                <owl:someValuesFrom rdf:resource="http://semanticweb.tools/ont/multi#LexicalItem"/>
+                <owl:someValuesFrom rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#LexicalItem"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Lexicon</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#LinguisticCommunity -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#LinguisticCommunity -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#LinguisticCommunity">
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#LinguisticCommunity">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Community"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isUnifiedBy"/>
-                        <owl:someValuesFrom rdf:resource="https://ontology.londisizwe.org/mola#Language"/>
+                        <owl:someValuesFrom rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/mola#Language"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Linguistic Community</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#LinguisticEtiquette -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#LinguisticEtiquette -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#LinguisticEtiquette">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#LanguageUse"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#LinguisticEtiquette">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#LanguageUse"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Linguistic Etiquette</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#Literature -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#Literature -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#Literature">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CreativeExpression"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#Literature">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CreativeExpression"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Literature</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#LocationBasedCommunity -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#LocationBasedCommunity -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#LocationBasedCommunity">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CommunityOfIdentity"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#LocationBasedCommunity">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CommunityOfIdentity"/>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#MaritalStatus -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#MaritalStatus -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#MaritalStatus">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CollectiveDemographicVariable"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#MaritalStatus">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CollectiveDemographicVariable"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Marital Status</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#MarriageSystem -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#MarriageSystem -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#MarriageSystem">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#System"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#MarriageSystem">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#System"/>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#MedicineSystem -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#MedicineSystem -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#MedicineSystem">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#System"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#MedicineSystem">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#System"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Medicine System</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#MetaphoricalLocation -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#MetaphoricalLocation -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#MetaphoricalLocation">
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#MetaphoricalLocation">
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Place"/>
-        <owl:disjointWith rdf:resource="http://semanticweb.tools/ont/multi#RelativeLocation"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+        <owl:disjointWith rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#RelativeLocation"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Metaphorical Location</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#Music -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#Music -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#Music">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CreativeExpression"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#Music">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CreativeExpression"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Music</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#Nationality -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#Nationality -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#Nationality">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CollectiveCulturalExpression"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#Nationality">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CollectiveCulturalExpression"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Nationality</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#Occupation -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#Occupation -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#Occupation">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CollectiveDemographicVariable"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#Occupation">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CollectiveDemographicVariable"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Occupation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#PartOfSpeech -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#PartOfSpeech -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#PartOfSpeech">
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#PartOfSpeech">
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Role"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParameter"/>
-                <owl:someValuesFrom rdf:resource="http://semanticweb.tools/ont/multi#PartOfSpeechSpecificRule"/>
+                <owl:someValuesFrom rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#PartOfSpeechSpecificRule"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Part of Speech</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#PartOfSpeechSpecificRule -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#PartOfSpeechSpecificRule -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#PartOfSpeechSpecificRule">
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#PartOfSpeechSpecificRule">
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Parameter"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Part of Speech-Specific Rule</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#PeriUrbanArea -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#PeriUrbanArea -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#PeriUrbanArea">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#RelativeLocation"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#PeriUrbanArea">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#RelativeLocation"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Peri-Urban Area</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#PoliticalCommunity -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#PoliticalCommunity -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#PoliticalCommunity">
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#PoliticalCommunity">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -940,271 +940,271 @@ This core version has been aligned to DOLCE+DnS Ultralite, an upper-level ontolo
                         <owl:unionOf rdf:parseType="Collection">
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation"/>
-                                <owl:someValuesFrom rdf:resource="http://semanticweb.tools/ont/multi#AbsoluteLocation"/>
+                                <owl:someValuesFrom rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#AbsoluteLocation"/>
                             </owl:Restriction>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation"/>
-                                <owl:someValuesFrom rdf:resource="http://semanticweb.tools/ont/multi#MetaphoricalLocation"/>
+                                <owl:someValuesFrom rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#MetaphoricalLocation"/>
                             </owl:Restriction>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Political Community</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#Politics -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#Politics -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#Politics">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CollectiveCulturalExpression"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#Politics">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CollectiveCulturalExpression"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Politics</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#Population -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#Population -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#Population">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CollectiveCulturalExpression"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#Population">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CollectiveCulturalExpression"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Population</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#Region -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#Region -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#Region">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#AbsoluteLocation"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#Region">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#AbsoluteLocation"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Region</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#RegionByCoordinates -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#RegionByCoordinates -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#RegionByCoordinates">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#Region"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#RegionByCoordinates">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#Region"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Region by Coordinates</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#RegionalBloc -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#RegionalBloc -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#RegionalBloc">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#Region"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#RegionalBloc">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#Region"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Regional Bloc</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#RelativeLocation -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#RelativeLocation -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#RelativeLocation">
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#RelativeLocation">
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Place"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Relative Location</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#Religion -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#Religion -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#Religion">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CollectiveCulturalExpression"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#Religion">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CollectiveCulturalExpression"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Religion</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#ReligiousCommunity -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#ReligiousCommunity -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#ReligiousCommunity">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CommunityOfIdentity"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#ReligiousCommunity">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CommunityOfIdentity"/>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#Rule -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#Rule -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#Rule">
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#Rule">
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Norm"/>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#RuralArea -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#RuralArea -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#RuralArea">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#RelativeLocation"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#RuralArea">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#RelativeLocation"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Rural Area</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#SexualOrientation -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#SexualOrientation -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#SexualOrientation">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#IndividualDemographicVariable"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#SexualOrientation">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#IndividualDemographicVariable"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Sexual Orientation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#SingleColour -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#SingleColour -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#SingleColour">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#ColourPerception"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#SingleColour">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#ColourPerception"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Single Colour</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#SocialClassScale -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#SocialClassScale -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#SocialClassScale">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CollectiveCulturalExpression"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#SocialClassScale">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CollectiveCulturalExpression"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Social Class Scale</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#SocialEtiquette -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#SocialEtiquette -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#SocialEtiquette">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CollectiveCulturalExpression"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#SocialEtiquette">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CollectiveCulturalExpression"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Social Etiquette</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#SocialStatus -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#SocialStatus -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#SocialStatus">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CollectiveDemographicVariable"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#SocialStatus">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CollectiveDemographicVariable"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Social Status</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#Spirituality -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#Spirituality -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#Spirituality">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#IndividualCulturalExpression"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#Spirituality">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#IndividualCulturalExpression"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Spirituality</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#Sport -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#Sport -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#Sport">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CreativeExpression"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#Sport">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CreativeExpression"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Sport</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#SubcultureCommunity -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#SubcultureCommunity -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#SubcultureCommunity">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CommunityOfIdentity"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#SubcultureCommunity">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CommunityOfIdentity"/>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#SuburbanArea -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#SuburbanArea -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#SuburbanArea">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#RelativeLocation"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#SuburbanArea">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#RelativeLocation"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Suburban Area</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#System -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#System -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#System">
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#System">
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">System</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#TechnologyUse -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#TechnologyUse -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#TechnologyUse">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CollectiveCulturalExpression"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#TechnologyUse">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CollectiveCulturalExpression"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Technology Use</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#Term -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#Term -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#Term">
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#Term">
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationObject"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Term</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#UNGeoschemeRegion -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#UNGeoschemeRegion -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#UNGeoschemeRegion">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#Region"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#UNGeoschemeRegion">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#Region"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">UN Geoscheme Region</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#UrbanArea -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#UrbanArea -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#UrbanArea">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#RelativeLocation"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#UrbanArea">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#RelativeLocation"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Urban Area</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#Viewpoint -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#Viewpoint -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#Viewpoint">
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#Viewpoint">
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Narrative"/>
-        <rdfs:isDefinedBy rdf:resource="http://semanticweb.tools/ont/multi"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi"/>
         <rdfs:label xml:lang="en">Viewpoint</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://semanticweb.tools/ont/multi#VirtualCommunity -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/multi#VirtualCommunity -->
 
-    <owl:Class rdf:about="http://semanticweb.tools/ont/multi#VirtualCommunity">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#CommunityOfIdentity"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/multi#VirtualCommunity">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#CommunityOfIdentity"/>
     </owl:Class>
     
 
@@ -1269,133 +1269,133 @@ This core version has been aligned to DOLCE+DnS Ultralite, an upper-level ontolo
     
 
 
-    <!-- https://ontology.londisizwe.org/mola#Dialect -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/mola#Dialect -->
 
-    <owl:Class rdf:about="https://ontology.londisizwe.org/mola#Dialect">
-        <rdfs:subClassOf rdf:resource="https://ontology.londisizwe.org/mola#Lect"/>
-        <rdfs:isDefinedBy rdf:resource="https://ontology.londisizwe.org/mola"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/mola#Dialect">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/mola#Lect"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/mola"/>
         <rdfs:label xml:lang="en">Dialect</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://ontology.londisizwe.org/mola#DialectCluster -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/mola#DialectCluster -->
 
-    <owl:Class rdf:about="https://ontology.londisizwe.org/mola#DialectCluster">
-        <rdfs:subClassOf rdf:resource="https://ontology.londisizwe.org/mola#LanguageFamily"/>
-        <rdfs:isDefinedBy rdf:resource="https://ontology.londisizwe.org/mola"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/mola#DialectCluster">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/mola#LanguageFamily"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/mola"/>
         <rdfs:label xml:lang="en">Dialect Cluster</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://ontology.londisizwe.org/mola#Ethnolect -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/mola#Ethnolect -->
 
-    <owl:Class rdf:about="https://ontology.londisizwe.org/mola#Ethnolect">
-        <rdfs:subClassOf rdf:resource="https://ontology.londisizwe.org/mola#Lect"/>
-        <rdfs:isDefinedBy rdf:resource="https://ontology.londisizwe.org/mola"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/mola#Ethnolect">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/mola#Lect"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/mola"/>
         <rdfs:label xml:lang="en">Ethnolect</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://ontology.londisizwe.org/mola#Idiolect -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/mola#Idiolect -->
 
-    <owl:Class rdf:about="https://ontology.londisizwe.org/mola#Idiolect">
-        <rdfs:subClassOf rdf:resource="https://ontology.londisizwe.org/mola#Lect"/>
-        <rdfs:isDefinedBy rdf:resource="https://ontology.londisizwe.org/mola"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/mola#Idiolect">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/mola#Lect"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/mola"/>
         <rdfs:label xml:lang="en">Idiolect</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://ontology.londisizwe.org/mola#Language -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/mola#Language -->
 
-    <owl:Class rdf:about="https://ontology.londisizwe.org/mola#Language">
-        <rdfs:subClassOf rdf:resource="https://ontology.londisizwe.org/mola#Languoid"/>
-        <rdfs:isDefinedBy rdf:resource="https://ontology.londisizwe.org/mola"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/mola#Language">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/mola#Languoid"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/mola"/>
         <rdfs:label xml:lang="en">Language</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://ontology.londisizwe.org/mola#LanguageCode -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/mola#LanguageCode -->
 
-    <owl:Class rdf:about="https://ontology.londisizwe.org/mola#LanguageCode">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#LanguoidIdentifier"/>
-        <rdfs:isDefinedBy rdf:resource="https://ontology.londisizwe.org/mola"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/mola#LanguageCode">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#LanguoidIdentifier"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/mola"/>
         <rdfs:label xml:lang="en">Language Code</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://ontology.londisizwe.org/mola#LanguageFamily -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/mola#LanguageFamily -->
 
-    <owl:Class rdf:about="https://ontology.londisizwe.org/mola#LanguageFamily">
-        <rdfs:subClassOf rdf:resource="https://ontology.londisizwe.org/mola#Languoid"/>
-        <rdfs:isDefinedBy rdf:resource="https://ontology.londisizwe.org/mola"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/mola#LanguageFamily">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/mola#Languoid"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/mola"/>
         <rdfs:label xml:lang="en">Language Family</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://ontology.londisizwe.org/mola#LanguageTag -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/mola#LanguageTag -->
 
-    <owl:Class rdf:about="https://ontology.londisizwe.org/mola#LanguageTag">
-        <rdfs:subClassOf rdf:resource="http://semanticweb.tools/ont/multi#LanguoidIdentifier"/>
-        <rdfs:isDefinedBy rdf:resource="https://ontology.londisizwe.org/mola"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/mola#LanguageTag">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#LanguoidIdentifier"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/mola"/>
         <rdfs:label xml:lang="en">Language Tag</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://ontology.londisizwe.org/mola#Languoid -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/mola#Languoid -->
 
-    <owl:Class rdf:about="https://ontology.londisizwe.org/mola#Languoid">
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/mola#Languoid">
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Norm"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#unifies"/>
-                <owl:someValuesFrom rdf:resource="http://semanticweb.tools/ont/multi#Grammar"/>
+                <owl:someValuesFrom rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#Grammar"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#unifies"/>
-                <owl:someValuesFrom rdf:resource="http://semanticweb.tools/ont/multi#Lexicon"/>
+                <owl:someValuesFrom rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/multi#Lexicon"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:isDefinedBy rdf:resource="https://ontology.londisizwe.org/mola"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/mola"/>
         <rdfs:label xml:lang="en">Languoid</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://ontology.londisizwe.org/mola#Lect -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/mola#Lect -->
 
-    <owl:Class rdf:about="https://ontology.londisizwe.org/mola#Lect">
-        <rdfs:subClassOf rdf:resource="https://ontology.londisizwe.org/mola#Language"/>
-        <rdfs:isDefinedBy rdf:resource="https://ontology.londisizwe.org/mola"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/mola#Lect">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/mola#Language"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/mola"/>
         <rdfs:label xml:lang="en">Lect</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://ontology.londisizwe.org/mola#Pidgin -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/mola#Pidgin -->
 
-    <owl:Class rdf:about="https://ontology.londisizwe.org/mola#Pidgin">
-        <rdfs:subClassOf rdf:resource="https://ontology.londisizwe.org/mola#Lect"/>
-        <rdfs:isDefinedBy rdf:resource="https://ontology.londisizwe.org/mola"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/mola#Pidgin">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/mola#Lect"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/mola"/>
         <rdfs:label xml:lang="en">Pidgin</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://ontology.londisizwe.org/mola#Sociolect -->
+    <!-- https://anonymous.4open.science/r/semanticweb-93B7/mola#Sociolect -->
 
-    <owl:Class rdf:about="https://ontology.londisizwe.org/mola#Sociolect">
-        <rdfs:subClassOf rdf:resource="https://ontology.londisizwe.org/mola#Lect"/>
-        <rdfs:isDefinedBy rdf:resource="https://ontology.londisizwe.org/mola"/>
+    <owl:Class rdf:about="https://anonymous.4open.science/r/semanticweb-93B7/mola#Sociolect">
+        <rdfs:subClassOf rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/mola#Lect"/>
+        <rdfs:isDefinedBy rdf:resource="https://anonymous.4open.science/r/semanticweb-93B7/mola"/>
         <rdfs:label xml:lang="en">Sociolect</rdfs:label>
     </owl:Class>
 </rdf:RDF>
